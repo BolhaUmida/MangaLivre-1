@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+*{
+    font-family: 'Gabarito', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #720606;
+    height: 80px;
+    border-radius: 3px;
+}
+
+#formulario{
+    margin-left: 10px ;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+
+
+}
+#formulario input{
+    border-radius: 25px;
+    margin-right: 25px;
+
+    
+}
+.caixa{
+    width: 200px;
+}
+
+
+.menu{
+    margin-left:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#caixa{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+    border: 2px solid #353131;
+    background-color: #353131;
+    border-radius: 5px;
+    padding: 13px ;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+#indicadores{
+    margin-bottom:551px;
+    
+}
+
+
+.links a{
+    background-color: #353131;
+    border-radius: 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    margin-left: 80px;
+    padding: 10px 65px 10px 65px;
+}
+
+
+.card-img-top{
+    width: 200px;
+    height: 300px;
+}
+
+body{
+   background-color: #3C3838;
+}
+
+.barra-em-branco{
+    height: 100px;
+    align-items: center;
+    background: #afa8a8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 300px 30px 300px;
+}
+
+.typeslist{
+
+    padding-top: 17px;
+
+}
+
+.typeslist li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ .typeslist li a{
+    text-decoration: none;
+    color: #ffff;
+    border: 2px solid #720606;
+    background-color: #720606;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px 80px 10px 80px;
+ }
+
+ .quadradoCinza{
+    height: 400px;
+    align-items: center;
+    background: #4F4848;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+.cardAnime figcaption{
+text-align: center;
+border: 2px solid;
+border-radius: 10px;
+border-color: #b09b9b;
+background-color: #b09b9b;
+color: rgb(0, 0, 0);
+cursor: pointer;
+}
+
+.borda :hover{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.cardAnime figcaption:hover{
+    
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #6e4848;
+    background-color: #6e4848;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 2px;
+
+}
+
+

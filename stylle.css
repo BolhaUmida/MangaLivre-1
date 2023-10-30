@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&display=swap');
+*{
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #353131;
+
+
+ }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #720606;
+    height: 80px;
+    border: solid #720606;
+    border-radius: 3px;
+}
+
+
+.menu{
+    margin-left:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#voltar{
+    color: white;
+    border: 2px solid #3C3838;
+    border-radius: 5px;
+    background-color: #3C3838;
+    padding: 13px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+.informacoes {
+
+    padding-top: 5rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.img {
+    float: left; 
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 400px;
+}
+
+.descricao {
+    font-family: 'Edu TAS Beginner', cursive;
+    
+    display: flex;
+    margin-top: 7rem;
+    text-align: center;
+    background-color: rgba(31, 29, 29, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+
+}
+
+.categoria{
+    
+    background-color: #441b1b;
+    display: inline-block;
+    border: 7px solid rgb(34, 32, 32) ;
+    border-radius: 10px;
+    
+}
+
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+color: chocolate;
+
+
+}
