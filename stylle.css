@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&display=swap');
+
 *{
     font-family: 'Gabarito', sans-serif;
     color: white;
@@ -41,9 +42,6 @@ body{
 }
 
 
-
-
-
 .informacoes {
 
     padding-top: 5rem;
@@ -56,33 +54,44 @@ body{
     border-radius: 10px;
     border: 2px solid white;
     height: 400px;
+    
 }
 
 .descricao {
-    font-family: 'Edu TAS Beginner', cursive;
-    
+    /* preferencia de fonte */
+    /*font-family: 'Edu TAS Beginner', cursive;*/
+   
     display: flex;
-    margin-top: 7rem;
+
     text-align: center;
     background-color: rgba(31, 29, 29, 0.7);
     padding: 20px;
     border-radius: 10px;
-    font-size: larger;
-
+    font-size: 26px;
 }
 
 .categoria{
-    
     background-color: #441b1b;
     display: inline-block;
     border: 7px solid rgb(34, 32, 32) ;
     border-radius: 10px;
-    
 }
 
 .titulo{
     font-family: 'Bebas Neue', sans-serif;
-color: chocolate;
+    color: chocolate;
+}
 
+.descricao1{
+    display: inline-block;
+    font-size: 33px;
+    color: chocolate;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
 
+.divDescricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

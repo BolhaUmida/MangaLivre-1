@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&display=swap');
 *{
     font-family: 'Gabarito', sans-serif;
 }
@@ -47,6 +49,7 @@
     background-color: #353131;
     border-radius: 5px;
     padding: 13px ;
+    
 }
 
 .links{
@@ -92,6 +95,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 30px 300px 30px 300px;
+    
 }
 
 .typeslist{
@@ -127,12 +131,12 @@ body{
  }
 
 .cardAnime figcaption{
-text-align: center;
-border: 2px solid;
-border-radius: 10px;
-border-color: #b09b9b;
-background-color: #b09b9b;
-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #b09b9b;
+    background-color: #b09b9b;
+    color: rgb(0, 0, 0);
 cursor: pointer;
 }
 
@@ -152,6 +156,10 @@ cursor: pointer;
     color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 2px;
+
+}
+
+.cardAnime{
 
 }
 
