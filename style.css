@@ -137,7 +137,8 @@ body{
     border-color: #b09b9b;
     background-color: #b09b9b;
     color: rgb(0, 0, 0);
-cursor: pointer;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
 }
 
 .borda :hover{
