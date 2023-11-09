@@ -67,7 +67,7 @@ body{
     background-color: rgba(31, 29, 29, 0.7);
     padding: 20px;
     border-radius: 10px;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .categoria{
@@ -84,7 +84,6 @@ body{
 
 .descricao1{
     display: inline-block;
-    font-size: 33px;
     color: chocolate;
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -95,3 +94,17 @@ body{
     align-items: center;
     justify-content: center;
 }
+.imgAva{
+    position: relative;
+}
+
+.nota{
+    position: absolute;
+    background-color: #1f1c1c;
+    border: 5px solid #1f1c1c;
+    border-radius: 5px;
+    color: chocolate;
+    text-align: center;
+    top:43vh;
+}
+
